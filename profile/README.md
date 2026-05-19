@@ -32,7 +32,7 @@ Building a divergent OS takes a community of like-minded outcasts. Whether you a
 1. **Explore the Repositories:** Check out our package overlays, build scripts, and core configurations below.
 2. **Read the Docs:** Familiarize yourself with our [Wiki/Documentation](#) (link your wiki here) to understand our build environments and musl/Clang quirks.
 3. **Join the Conversation:** 
-   [Discord](#) *(https://discord.gg/uBBTwu2N4C)
+   [Discord](#) - https://discord.gg/uBBTwu2N4C
 
 
 ## 🚀 Quick Links (Coming Soon)
