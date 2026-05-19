@@ -1,10 +1,4 @@
-Here is a template for your `.github` repository's profile `README.md`. Because it will sit in the `.github` repository, it will act as the default landing page for the Athanor organization on GitHub.
 
-The tone is tailored to highlight your themes of divergence, high performance, and minimalism, while still maintaining an organized and welcoming structure for contributors.
-
-***
-
-```markdown
 # ⚗️ Athanor
 > *"a distro for the anti normie"*
 
