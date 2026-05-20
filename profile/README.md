@@ -37,10 +37,10 @@ Building a divergent OS takes a community of like-minded outcasts. Whether you a
 
 ## 🚀 Quick Links (Coming Soon)
 
-*   🌐 **Website:** 
-*   📖 **Wiki:** 
-*   🐛 **Bug Tracker:** 
-*   📦 **Package Search:** 
+*   🌐 **Website:** - coming soon, perhaps look at the wiki!
+*   📖 **Wiki:** - https://choccynix.github.io/
+*   🐛 **Bug Tracker:** - coming soon
+*   📦 **Package Search:** - coming soon
 
 ---
 *“Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away.”* — Antoine de Saint-Exupéry
