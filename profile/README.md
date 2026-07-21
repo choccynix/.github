@@ -1,47 +1,83 @@
+```
+ █████╗ ███╗   ██╗████████╗██╗  ██╗ ██████╗ ██████╗  ██████╗ ███████╗
+██╔══██╗████╗  ██║╚══██╔══╝██║  ██║██╔═══██╗██╔══██╗██╔═══██╗██╔════╝
+███████║██╔██╗ ██║   ██║   ███████║██║   ██║██████╔╝██║   ██║███████╗
+██╔══██║██║╚██╗██║   ██║   ██╔══██║██║   ██║██╔══██╗██║   ██║╚════██║
+██║  ██║██║ ╚████║   ██║   ██║  ██║╚██████╔╝██║  ██║╚██████╔╝███████║
+╚═╝  ╚═╝╚═╝  ╚═══╝   ╚═╝   ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═╝ ╚═════╝ ╚══════╝
+```
 
-# ⚗️ Athanor
-> *"a distro for the anti normie"*
+<div align="center">
 
-Welcome to the central community hub for **Athanor**. 
+**Diverge. Distill. Transcend.**
 
-Athanor is a Gentoo-based Linux distribution built on the principles of **divergence, minimalism, performance, and speed**. We reject the bloated defaults of mainstream computing. Instead, we forge an operating system designed strictly for the enthusiast, the tinkerer, and the power user who demands absolute control over their machine.
+*Building a minimal, rolling Linux distribution — forged from Gentoo, shaped by musl, LLVM, and OpenRC.*
 
-## 🌌 The Philosophy of Divergence
+![Build](https://github.com/choccynix/AnthorISO/actions/workflows/build.yml/badge.svg?branch=main)
+![License](https://img.shields.io/badge/license-MIT-8B5CF6)
+![Arch](https://img.shields.io/badge/arch-amd64-6D28D9)
+![Base](https://img.shields.io/badge/base-Gentoo-54286B)
 
-Mainstream distributions cater to the masses by making decisions for you, often at the cost of overhead and complexity. Athanor is built on **Divergence**. We diverge from the modern standards of heavy monolithic systems to bring you a hyper-optimized, razor-sharp environment. 
-
-If you want a system that stays out of your way and dedicates every CPU cycle to *your* workloads, you are in the right place.
-
-## ⚙️ Under the Hood
-
-Athanor strips away the cruft and rebuilds the Linux experience from the ground up using a strictly curated, high-performance tech stack:
-
-*   **Gentoo-Based:** Unparalleled flexibility and source-based compilation. You control exactly what gets built and how.
-*   **musl libc:** We drop the heavy glibc in favor of musl. It is lightweight, fast, strict, and ruthlessly efficient.
-*   **Clang/LLVM:** Compiled with modern toolchains. We leverage Clang for faster compile times, better diagnostics, and heavily optimized binaries.
-*   **OpenRC:** A true, dependency-based init system. No systemd. Just fast, predictable, and clean boot processes.
-
-## 📂 About this Repository
-
-This `.github` repository serves as the organization-wide default for Athanor's community health files. Here you will find our default `CONTRIBUTING.md`, `CODE_OF_CONDUCT.md`, and issue templates that apply globally across all Athanor repositories.
-
-## 🤝 Getting Involved
-
-Building a divergent OS takes a community of like-minded outcasts. Whether you are packaging software, optimizing compiler flags, or writing documentation, your contributions are welcome.
-
-1. **Explore the Repositories:** Check out our package overlays, build scripts, and core configurations below.
-2. **Read the Docs:** Familiarize yourself with our [Wiki/Documentation](#) (https://choccynix.github.io/) to understand our build environments and musl/Clang quirks.
-3. **Join the Conversation:** 
-   [Discord](#) - https://discord.gg/uBBTwu2N4C
-
-
-## 🚀 Quick Links (Coming Soon)
-
-*   🌐 **Website:** - coming soon, perhaps look at the wiki!
-*   📖 **Wiki:** - https://choccynix.github.io/
-*   🐛 **Bug Tracker:** - coming soon
-*   📦 **Package Search:** - coming soon
+</div>
 
 ---
-*“Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away.”* — Antoine de Saint-Exupéry
-```
+
+## ◈ What is AnthorOS?
+
+AnthorOS is a source-rooted, musl/LLVM-based Linux distribution built with Gentoo's Catalyst tooling. No systemd, no glibc, no bloat — just a foundation you shape into exactly what you need.
+
+Three principles guide everything we build:
+
+- **Divergence** — break from convention where it earns its keep.
+- **Minimalism** — nothing installed that isn't needed. Every package is a choice.
+- **Transmutation** — the system becomes exactly what you make of it.
+
+This organization is home to the ISO build system, documentation, and the tools around them.
+
+---
+
+## ◈ Where to Start
+
+| Looking for... | Go to |
+|---|---|
+| The distro itself — ISO, stage3, build system | **[AnthorISO](../../AnthorISO)** |
+| Full documentation | **[AnthorISO/docs](../../AnthorISO/tree/main/docs)** |
+| Latest release | **[Releases](../../AnthorISO/releases/latest)** |
+| Something broken | **[Issues](../../AnthorISO/issues)** |
+| Ideas, questions, showcases | **[Discussions](../../AnthorISO/discussions)** |
+
+---
+
+## ◈ Get Involved
+
+AnthorOS is early and moving fast — there's plenty of room to shape it.
+
+1. Branch off `dev`, never commit directly to `main`
+2. Use `feature/your-thing` or `fix/your-thing` naming
+3. Open a PR into `dev` and get a review
+4. `dev` merges into `main` when stable
+
+Read the full **[Contributing Guide](../../AnthorISO/blob/main/docs/contributing.md)** before your first PR.
+
+We welcome:
+- Portage/USE-flag tuning and package.* contributions
+- Catalyst spec and build-pipeline improvements
+- Documentation fixes and clarity passes
+- Testing on real hardware and reporting back
+
+---
+
+## ◈ Community Standards
+
+- Be direct, be kind. Disagreement over technical choices is welcome; disrespect isn't.
+- Search existing issues/discussions before opening new ones.
+- Keep discussion of a change in the PR/issue where it happened — it's how future contributors find the reasoning.
+
+---
+
+<div align="center">
+
+*"The process of transmutation is not the destruction of what was —*
+*it is the revelation of what could be."*
+
+</div>
